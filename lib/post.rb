@@ -6,9 +6,9 @@ class Post
   #  @title = title
   #end
 
-  attr_accessor :title, :author
+  attr_accessor :title#, :author
 
-  def initialize(title=nil, author=nil)
+  def initialize(title=nil)#, author=nil)
     @title = title
     #@author = author
   end
