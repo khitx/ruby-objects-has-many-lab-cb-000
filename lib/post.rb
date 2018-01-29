@@ -10,7 +10,7 @@ class Post
 
   def initialize(title=nil, author=nil)
     @title = title
-    @author = author
+    #@author = author
   end
 
   def author_name
