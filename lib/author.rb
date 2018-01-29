@@ -17,5 +17,6 @@ class Author
     post = Post.new(title)
     @posts << post
     post.author = self
+    binding.pry
   end
 end
