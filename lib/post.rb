@@ -3,7 +3,7 @@ class Post
 
   def initialize(post, title=nil)
     @post = post
-    @title = title if title
+    @title = title
   end
 
 end
